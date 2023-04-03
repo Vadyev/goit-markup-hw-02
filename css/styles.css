@@ -1,22 +1,11 @@
 :root {
-  --color-iris: #4d5ae5;
-  --color-ocean: #404bbf;
-  --color-navy-blue: #2e2f42;
-  --color-green: #31d0aa;
-  --color-slate: #434455;
-  --color-light-slate: #8e8f99;
-  --color-cornflower: #e7e9fc;
-  --color-cloud: #f4f4fd;
-  --color-navy-blue-modal: #2e2f42;
-  --color-grey: #2e2f42;
-  --color-white: #ffffff;
-  --color-dairy: #fcfcfc;
 }
 .body {
+  font-family: Roboto, Raleway, sans-serif;
 }
 .header {
 }
-.nav {
+.header-nav {
 }
 .logo {
   font-family: "Raleway";
@@ -34,22 +23,38 @@
 .logo-dark {
   color: #2e2f42;
 }
+.header-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.list {
+}
+.header-link {
+  text-decoration: none;
+}
 .link {
 }
 .address {
 }
-.main {
+.header-contact {
+  text-decoration: none;
 }
-.hero {
-  position: absolute;
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
-  background-color: #2e2f42;
+.main {
 }
 .section {
 }
+.section-list {
+}
+.button {
+}
+.h3 {
+}
+.text {
+}
 .footer {
-  background-color: #2e2f42;
 }

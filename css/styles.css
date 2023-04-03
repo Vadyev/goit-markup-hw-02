@@ -30,6 +30,7 @@
   text-decoration: none;
   list-style: none;
   background-color: var(--color-white);
+  color: #434455;
 }
 .header {
   text-decoration: none;
@@ -61,6 +62,9 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
+  text-decoration: none;
+}
+.list {
   text-decoration: none;
 }
 .logo-light {

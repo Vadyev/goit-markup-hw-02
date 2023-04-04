@@ -27,18 +27,8 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  list-style: none;
   background-color: var(--color-white);
   color: #434455;
-}
-.header {
-  text-decoration: none;
-  list-style: none;
-}
-.header-nav {
-  text-decoration: none;
-  list-style: none;
 }
 .hero,
 .title-hero {
@@ -54,7 +44,8 @@
   color: var(--color-white);
   font-family: inherit;
 }
-.logo {
+.logo,
+.link {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
@@ -62,23 +53,17 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-  text-decoration: none;
-}
-.list {
-  text-decoration: none;
 }
 .logo-light {
-  color: #f4f4fd;
+  color: var(--color-cloud);
 }
 .logo-dark {
-  color: #2e2f42;
+  color: var(--color-navy-blue);
 }
-.header-list,
 .header-link:hover,
 .header-link:focus {
   font-weight: 500;
   color: var(--color-navy-blue);
-  list-style: none;
 }
 
 .title-section-item {
@@ -86,33 +71,29 @@
   font-size: 20px;
   line-height: 1.2;
   color: var(--color-navy-blue);
-  list-style: none;
 }
 .address {
 }
-.header-contact {
+.header-contact,
+.header-link {
   text-decoration: none;
   font-weight: 400;
   color: var(--color-slate);
 }
 
-.section {
-}
 .section-list {
-  text-decoration: none;
+  list-style-type: none;
 }
-.section-item {
-  text-decoration: none;
-}
+
 .button:hover,
 .button:focus {
   font-family: inherit;
   color: var(--color-iris);
-  background-color: var(--color-cornflower);
 }
 
 .text {
   color: var(--color-slate);
 }
 .footer {
+  background-color: var(--color-navy-blue);
 }

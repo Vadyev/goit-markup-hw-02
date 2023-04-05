@@ -71,7 +71,7 @@
 .logo-dark {
   color: var(--color-navy-blue);
 }
-.menu-link {
+.list .link {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -81,8 +81,8 @@
   text-decoration: none;
   color: var(--color-navy-blue);
 }
-.menu-link:hover,
-.menu-link:focus {
+.list .link:hover,
+.list .link:focus {
   color: var(--color-ocean);
 }
 .address-list {
@@ -92,12 +92,6 @@
   font-weight: 400;
   color: var(--color-slate);
 }
-.address-item:hover,
-.address-item:focus {
-  font-weight: 500;
-  color: var(--color-navy-blue);
-}
-
 /* Our advantages */
 /* What are we doing */
 .title-section-item {

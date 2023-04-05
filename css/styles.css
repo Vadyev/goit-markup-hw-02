@@ -38,6 +38,7 @@
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .hero-button {
@@ -78,14 +79,18 @@
   letter-spacing: 0.02em;
   list-style: none;
   text-decoration: none;
+  color: var(--color-navy-blue);
 }
 .menu-link:hover,
-.menu-link:focus,
+.menu-link:focus {
+  color: var(--color-ocean);
+}
 .adress-item:hover,
 .adress-item:focus {
   font-weight: 500;
   color: var(--color-navy-blue);
 }
+.adress,
 .adress-item {
   text-decoration: none;
   font-style: normal;
@@ -119,26 +124,34 @@
 .section-team {
   background-color: var(--color-cloud);
 }
-.section-team > li {
+.section-team li {
   background-color: var(--color-white);
 }
 .section {
   text-decoration: none;
 }
-.button-All {
+.section-list > li {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   background-color: var(--color-ocean);
   font-weight: 500;
   cursor: pointer;
 }
-.button-All:hover,
-.button-All:focus {
-  color: var(--color-white);
-  background-color: var(--color-ocean);
-}
 .button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.04em;
   background-color: var(--color-cloud);
   color: var(--color-iris);
-  font-weight: 500;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {

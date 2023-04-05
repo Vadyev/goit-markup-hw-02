@@ -85,19 +85,20 @@
 .menu-link:focus {
   color: var(--color-ocean);
 }
-.adress-item:hover,
-.adress-item:focus {
-  font-weight: 500;
-  color: var(--color-navy-blue);
-}
-.adress,
-.adress-item {
+.address,
+.address-item {
   text-decoration: none;
   font-style: normal;
   list-style: none;
   font-weight: 400;
   color: var(--color-slate);
 }
+.address-item:hover,
+.address-item:focus {
+  font-weight: 500;
+  color: var(--color-navy-blue);
+}
+
 /* Our advantages */
 /* What are we doing */
 .title-section-item {
@@ -122,9 +123,6 @@
 }
 /* Our Team  */
 .section-team {
-  background-color: var(--color-cloud);
-}
-.section-team li {
   background-color: var(--color-white);
 }
 .section {

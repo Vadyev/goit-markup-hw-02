@@ -154,9 +154,18 @@
 .button:hover,
 .button:focus {
   font-family: inherit;
-  color: var(--color-iris);
-  background-color: var(--color-cloud);
+  color: var(--color-white);
+  background-color: var(--color-ocean);
   font-weight: 500;
+}
+.portfolio-item {
+  text-decoration: none;
+}
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .text {

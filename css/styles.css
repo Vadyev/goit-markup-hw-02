@@ -123,7 +123,7 @@
 }
 /* Our Team  */
 .section-team {
-  background-color: var(--color-white);
+  background-color: var(--color-cloud);
 }
 .section {
   text-decoration: none;
@@ -135,7 +135,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: var(--color-ocean);
+  background-color: var(--color-white);
   font-weight: 500;
   cursor: pointer;
 }

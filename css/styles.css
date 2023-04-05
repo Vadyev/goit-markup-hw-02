@@ -29,32 +29,7 @@
 .link {
   text-decoration: none;
 }
-
-/* Hero section */
-.hero,
-.title-hero {
-  background-color: var(--color-navy-blue);
-  color: var(--color-white);
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-.hero-button {
-  background-color: var(--color-iris);
-  color: var(--color-white);
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--color-ocean);
-}
+/* Header section */
 .logo {
   font-family: var(--secondary-font);
   font-weight: 800;
@@ -92,6 +67,32 @@
   font-weight: 400;
   color: var(--color-slate);
 }
+/* Hero section */
+.hero,
+.title-hero {
+  background-color: var(--color-navy-blue);
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.hero-button {
+  background-color: var(--color-iris);
+  color: var(--color-white);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-ocean);
+}
+
 /* Our advantages */
 /* What are we doing */
 .title-section-item {
@@ -132,6 +133,7 @@
   font-weight: 500;
   cursor: pointer;
 }
+/* Portfolio */
 .button {
   font-family: inherit;
   font-weight: 500;
@@ -161,7 +163,6 @@
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
-
 .text {
   color: var(--color-slate);
 }

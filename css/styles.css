@@ -79,14 +79,13 @@
   letter-spacing: 0.02em;
   list-style: none;
   text-decoration: none;
-  color: var(--color-slate);
+  color: var(--color-navy-blue);
 }
 .menu-link:hover,
 .menu-link:focus {
   color: var(--color-ocean);
 }
-.address,
-.address-item {
+.address-list {
   text-decoration: none;
   font-style: normal;
   list-style: none;

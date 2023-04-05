@@ -13,13 +13,6 @@
   --color-dairy: #fcfcfc;
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-  --body-bg-cl: #ffffff;
-  --hero-bg-cl: #2e2f42;
-  --team-bg-cl: #f4f4fd;
-  --footer-bg-cl: #2e2f42;
-  --portfolio-bg-cl: var(--color-white);
-  --btn-filter-bg: #f4f4fd;
-  --btn-filter-bg-active: #404bbf;
 }
 .body {
   font-family: var(--main-font);
@@ -30,6 +23,7 @@
   background-color: var(--color-white);
   color: #434455;
 }
+/* Hero section */
 .hero,
 .title-hero {
   background-color: var(--color-navy-blue);
@@ -43,6 +37,15 @@
   background-color: var(--color-iris);
   color: var(--color-white);
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-ocean);
 }
 .logo,
 .link {
@@ -65,30 +68,69 @@
   font-weight: 500;
   color: var(--color-navy-blue);
 }
-
+.header-contact,
+.header-link {
+  text-decoration: none;
+  font-style: normal;
+  list-style: none;
+  font-weight: 400;
+  color: var(--color-slate);
+}
+/* Our advantages */
+/* What are we doing */
 .title-section-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
-.address {
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
 }
-.header-contact,
-.header-link {
-  text-decoration: none;
-  font-weight: 400;
-  color: var(--color-slate);
-}
-
-.section-list {
+.section-list,
+.list {
   list-style-type: none;
+  letter-spacing: 0.02em;
+}
+/* Our Team  */
+.section4 {
+  background-color: var(--color-cloud);
+}
+.section {
+  text-decoration: none;
+}
+.button-All {
+  background-color: var(--color-ocean);
+  font-weight: 500;
+  cursor: pointer;
+}
+.button-All:hover,
+.button-All:focus {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+}
+.button {
+  background-color: var(--color-cloud);
+  color: var(--color-iris);
+  font-weight: 500;
 }
 
 .button:hover,
 .button:focus {
+}
+.button:hover,
+.button:focus {
   font-family: inherit;
   color: var(--color-iris);
+  background-color: var(--color-cloud);
+  font-weight: 500;
 }
 
 .text {
@@ -96,4 +138,5 @@
 }
 .footer {
   background-color: var(--color-navy-blue);
+  text-decoration: none;
 }

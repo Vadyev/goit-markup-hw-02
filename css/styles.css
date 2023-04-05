@@ -85,7 +85,7 @@
 .list .link:focus {
   color: var(--color-ocean);
 }
-.address-list {
+.address .link {
   text-decoration: none;
   font-style: normal;
   list-style: none;

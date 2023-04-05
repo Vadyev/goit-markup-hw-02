@@ -60,6 +60,9 @@
 .list .link:focus {
   color: var(--color-ocean);
 }
+.address {
+  font-style: normal;
+}
 .address .link {
   text-decoration: none;
   font-style: normal;

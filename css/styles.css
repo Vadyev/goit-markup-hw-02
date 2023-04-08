@@ -16,12 +16,11 @@
 }
 .body {
   font-family: var(--main-font);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: var(--color-white);
-  color: #434455;
+  color: var(--color-slate);
 }
 .list {
   list-style: none;
@@ -47,7 +46,6 @@
   color: var(--color-navy-blue);
 }
 .list .link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -75,7 +73,6 @@
 .title-hero {
   background-color: var(--color-navy-blue);
   color: var(--color-white);
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -127,13 +124,10 @@
 }
 .section-list > li {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: var(--color-white);
-  font-weight: 500;
   cursor: pointer;
 }
 /* Portfolio */
@@ -160,7 +154,6 @@
   text-decoration: none;
 }
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
